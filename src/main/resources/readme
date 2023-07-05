@@ -1,0 +1,13 @@
+//script
+INSERT INTO roles(name) VALUES('ROLE_USER');
+INSERT INTO roles(name) VALUES('ROLE_MODERATOR');
+INSERT INTO roles(name) VALUES('ROLE_ADMIN');
+
+payload
+{
+"username":"user",
+"email":"user@gmail.com",
+"role":["user","user"],
+"password":"123456"
+
+}
